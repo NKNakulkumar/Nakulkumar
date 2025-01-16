@@ -70,7 +70,7 @@
 
 ###
 
-<img align="center" height="150" src="https://user-images.githubusercontent.com/8391493/205162876-565ca6f5-391f-4167-9752-5aa737dc4b72.gif"  />
+<img align="Center" height="150" src="https://user-images.githubusercontent.com/8391493/205162876-565ca6f5-391f-4167-9752-5aa737dc4b72.gif"  />
 
 ###
 
