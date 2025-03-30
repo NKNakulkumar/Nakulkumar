@@ -9,6 +9,7 @@
 <p align="left">📚 I’m currently learning React.js and Node.js to expand my expertise in modern frontend and Backend frameworks 🚀<br>❤️ I am loved to write code and creating the impressive web application<br>🌦️ Fun Fact 🤔<br>I built a Weather App... but forgot to define the API key! So now, it predicts "Error 404" weather every time. 😅</p>
 
 
+
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img width="12" />
@@ -47,9 +48,11 @@
 </div>
 
 
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=NKNakulkumar&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=NKNakulkumar&locale=en&mode=daily&theme=github_dark&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
+  
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=NKNakulkumar&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=github_dark&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
