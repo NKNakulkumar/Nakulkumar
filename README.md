@@ -61,14 +61,14 @@
 
 <br clear="both">
 
-<div align="left">
+<div align="center">
   
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="linkedin logo"  />
-
+ <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+</div>
 <img align="Center" height="150" src="https://user-images.githubusercontent.com/8391493/205162876-565ca6f5-391f-4167-9752-5aa737dc4b72.gif" />
 
-###
 
+###
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/NKNakulkumar/NKNakulkumar/output/snake.svg" alt="Snake animation" />
