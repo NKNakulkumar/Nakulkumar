@@ -1,34 +1,33 @@
-name: Generate snake animation
+name: Update README with Commit Count
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
-  workflow_dispatch:
-
   push:
     branches:
-    - master
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # Run once a day (midnight UTC)
 
 jobs:
-  generate:
-    permissions:
-      contents: write
+  update-readme:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: NKNakulkumar
-          outputs: dist/snake.svg?palette=github-dark
+      - name: Checkout code
+        uses: actions/checkout@v2
 
+      - name: Update commit badge in README.md
+        run: |
+          # Fetch total commit count
+          COMMIT_COUNT=$(git rev-list --count HEAD)
+          echo "Updating README with commit count: $COMMIT_COUNT"
 
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Update the badge URL with the latest commit count
+          sed -i 's|![](https://img.shields.io/github/commits/activity/yaml?username=NKNakulkumar)|![Commits Badge](https://img.shields.io/badge/Commits-'$COMMIT_COUNT'-blue)|' README.md
+
+      - name: Commit updated README.md
+        run: |
+          git config --global user.name "NKNakulkumar"
+          git config --global user.email "your-email@example.com"  # Update with your email
+          git add README.md
+          git commit -m "Update commit count in README"
+          git push
