@@ -15,13 +15,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Update commit badge in README.md
+           - name: Update commit badge in README.md
         run: |
           # Fetch total commit count
           COMMIT_COUNT=$(git rev-list --count HEAD)
           echo "Updating README with commit count: $COMMIT_COUNT"
           # Update the badge URL with the latest commit count
-          sed -i 's|![](https://img.shields.io/github/commits/activity/yaml?username=NKNakulkumar)|![Commits Badge](https://img.shields.io/badge/Commits-'$COMMIT_COUNT'-blue)|' README.md
+          sed -i "s|![](https://img.shields.io/github/commits/activity/yaml?username=NKNakulkumar)|![Commits Badge](https://img.shields.io/badge/Commits-${COMMIT_COUNT}-blue)|" README.md
       - name: Commit updated README.md
         run: |
           git config --global user.name "NKNakulkumar"
