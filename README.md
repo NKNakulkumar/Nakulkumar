@@ -53,6 +53,6 @@
 
 <br clear="both">
 
-![Snake animation](https://raw.githubusercontent.com/NKNakulkumar/NKNakulkumar/main/assets/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/NKNakulkumar/NKNakulkumar/blob/output/github-snake.svg)
 
 ###
