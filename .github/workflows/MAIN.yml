@@ -1,3 +1,5 @@
+name: Update README Commit Badge
+
 on:
   push:
     branches:
@@ -13,17 +15,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-           - name: Update commit badge in README.md
+      - name: Update commit badge in README.md
         run: |
           # Fetch total commit count
           COMMIT_COUNT=$(git rev-list --count HEAD)
           echo "Updating README with commit count: $COMMIT_COUNT"
           # Update the badge URL with the latest commit count
           sed -i "s|![](https://img.shields.io/github/commits/activity/yaml?username=NKNakulkumar)|![Commits Badge](https://img.shields.io/badge/Commits-${COMMIT_COUNT}-blue)|" README.md
+
       - name: Commit updated README.md
         run: |
           git config --global user.name "NKNakulkumar"
           git config --global user.email "your-email@example.com"  # Update with your email
           git add README.md
-          git commit -m "Update commit count in README"
+          git commit -m "Update commit count in README" || echo "No changes to commit"
           git push
