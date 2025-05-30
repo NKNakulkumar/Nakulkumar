@@ -53,6 +53,6 @@
 
 <br clear="both">
 
-![Snake animation](https://raw.githubusercontent.com/NKNakulkumar/NKNakulkumar/output/github-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/NKNakulkumar/NKNakulkumar/output/github-snake-dark.svg?palette=github-dark)
 
 ###
