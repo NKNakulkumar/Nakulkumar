@@ -1,11 +1,10 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Nakul Kumar
-====================================================================================================
+============
 
 ###
 
 <p align="left">💻 Passionate about Frontend and Backend development, with a focus on building responsive, visually appealing, and modern web interfaces.</p>
 
-###
 
 <p align="left">📚 I’m currently learning React.js and Node.js to expand my expertise in modern frontend and Backend frameworks 🚀<br>❤️ I am loved to write code and creating the impressive web application<br>🌦️ Fun Fact 🤔<br>I built a Weather App... but forgot to define the API key! So now, it predicts "Error 404" weather every time. 😅</p>
 
