@@ -67,3 +67,8 @@
 ![Snake animation](https://raw.githubusercontent.com/NKNakulkumar/NKNakulkumar/output/github-snake-dark.svg?palette=github-dark)
 
 ###
+<br clear="both">
+
+<img src="./assets/pacman.gif" alt="Pac-Man animation" width="400"/>
+
+
