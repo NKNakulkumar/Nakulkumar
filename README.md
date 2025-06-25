@@ -6,7 +6,7 @@
 
 ### 
 
-<p align="left">📚 I’m currently learning React.js and Node.js to expand my expertise in modern frontend and Backend frameworks 🚀<br>❤️ I love writing code and creating impressive web applications.<br>🌦️ Fun Fact 🤔<br>I built a Weather App... but forgot to define the API key! So now, it predicts "Error 404" weather every time. 😅</p>
+<p align="left">📚 I’m currently learning Next.js and Node.js to expand my expertise in modern frontend and Backend frameworks 🚀<br>❤️ I love writing code and creating impressive web applications.<br>🌦️ Fun Fact 🤔<br>I built a Weather App... but forgot to define the API key! So now, it predicts "Error 404" weather every time. 😅</p>
 
 ### 
 
